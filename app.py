@@ -5,7 +5,7 @@ import json
 import requests
 import unicodedata
 
-df = pd.read_csv('C:/Users/Usuario/Documents/Diplomados/Tripleten/Proyectos/Sprint_7/Turismo-internacional/Base_publica_EVI_Aereo.csv', encoding='latin1', sep=';', decimal=",") # leer los datos
+df = pd.read_csv('Base_publica_EVI_Aereo.csv', encoding='latin1', sep=';', decimal=",") # leer los datos
 
 # Mapear nombres personalizados en la columna
 tipo_map = {
