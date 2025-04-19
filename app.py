@@ -17,8 +17,8 @@ df["Tipo_Label"] = df["Tipo"].map(tipo_map)
 st.header('Análisis del turismo internacional en Colombia')
 
 hist_button = st.button('Construir histograma') # crear un botón
-scat_button = st.button('Construir scatterplot') # crear un botón
 mapa_button = st.button('Construir mapa') # crear un botón
+scat_button = st.button('Construir scatterplot') # crear un botón
         
 if hist_button: # al hacer clic en el botón
     st.write('Creación de un histograma para gasto total por tipo de viaje')
